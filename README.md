@@ -1,4 +1,4 @@
-# Social Links - Perfil de Enlaces Sociales
+# MiEnlace - Perfil de Enlaces Sociales
 
 ![Vista previa del proyecto](./public/Social-Captura.png)
 
@@ -25,8 +25,8 @@ Componente de perfil de enlaces sociales basado en el desafío de [Frontend Ment
 **Requisitos**: Node.js y npm
 
 ```bash
-git clone https://github.com/RuisuTech/Social-Links.git
-cd Social-Links
+git clone https://github.com/RuisuTech/MiEnlace.git
+cd MiEnlace
 npm install
 npm run dev
 ```
