@@ -4,27 +4,25 @@ import Perfil from "./components/Perfil.tsx";
 
 function App() {
   return (
-    <>
-      <div className="flex justify-center items-center text-center h-screen">
-        <div className="bg-[#1f1f1f] w-[280px] md:w-[350px] rounded-xl p-4">
-          <div className="flex justify-center items-center flex-col">
-            <Perfil
-              img="./Gato.jpg"
-              name="Jose Luis Guzman"
-              ciudad="Lima, Peru"
-              descripcion="Programador Autodidacta :D"
-            />
-          </div>
-          <div className="flex justify-center items-center flex-col gap-4">
-            <Links name="GitHub" url="https://github.com/RuisuTech"/>
-            <Links name="Twitter" url="#"/>
-            <Links name="Linkedin" url="#"/>
-            <Links name="Instagram" url="#"/>
-            <Links name="Frontend Mentor" url="#"/>
-          </div>
+    <div className="flex justify-center items-center text-center min-h-screen bg-ocean-dark">
+      <div className="bg-ocean-dark-card w-[280px] md:w-[350px] rounded-2xl p-6 border border-ocean-border shadow-lg shadow-black/20">
+        <div className="flex justify-center items-center flex-col">
+          <Perfil
+            img="./Gato.jpg"
+            name="Jose Luis Guzman"
+            ciudad="Lima, Peru"
+            descripcion="Programador Autodidacta :D"
+          />
+        </div>
+        <div className="flex justify-center items-center flex-col gap-3 mt-4">
+          <Links name="GitHub" url="https://github.com/RuisuTech" />
+          <Links name="YouTube" url="https://www.youtube.com/@RuisuTech" />
+          <Links name="LinkedIn" url="https://www.linkedin.com/in/jose-luis-guzman-178702267/" />
+          <Links name="Twitter" url="#" />
+          <Links name="Instagram" url="#" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
